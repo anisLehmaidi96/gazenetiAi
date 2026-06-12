@@ -82,7 +82,7 @@ fun MyButton() {
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/yourusername/gazeneti-ai.git
+git clone https://github.com/anisLehmaidi96/gazenetiAi.git
 cd gazeneti-ai
 ```
 
@@ -125,7 +125,7 @@ Contributions are welcome!
 
 ## 📄 License
 
-MIT License
+Apache License
 
 ---
 
