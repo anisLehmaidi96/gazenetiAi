@@ -1,133 +1,136 @@
-Gazeneti AI
-<p align="center"> <img src="assets/logo.png" alt="Gazeneti AI Logo" width="180"> </p> <p align="center"> <strong>Your AI Coding Assistant for Python, Kotlin, and Android Studio</strong> </p>
-🚀 Overview
+# 🚀 Gazeneti AI
 
-Gazeneti AI is an intelligent coding assistant designed to help developers build, debug, and optimize applications using:
+> Your AI Coding Assistant for Python, Kotlin, and Android Studio
 
-🐍 Python
-☕ Kotlin
-🤖 Android Studio
+## 📖 Overview
 
-Whether you're a beginner learning programming or an experienced developer building production applications, Gazeneti AI provides real-time assistance, code generation, debugging support, and development guidance.
+Gazeneti AI is an intelligent coding assistant designed to help developers write, debug, and optimize code for:
 
-✨ Features
-Python Development
-Generate Python code from natural language prompts
-Debug and explain errors
-Create scripts, APIs, automation tools, and data-processing solutions
-Improve code quality and performance
-Kotlin Development
-Generate Kotlin classes, functions, and architectures
-Explain Kotlin concepts and best practices
-Refactor and optimize Kotlin code
-Assist with modern Android development patterns
-Android Studio Assistance
-Create Activities, Fragments, and ViewModels
-Generate XML layouts and Jetpack Compose UI
-Help with Gradle configuration
-Debug Android Studio build errors
-Support MVVM, Clean Architecture, and modern Android frameworks
-AI-Powered Support
-Code explanations
-Bug fixing suggestions
-Project architecture recommendations
-Documentation generation
-Learning assistance for new developers
-🛠️ Example Usage
-Python Example
+- 🐍 Python
+- ☕ Kotlin
+- 🤖 Android Studio
 
-Prompt
+Whether you're a beginner or an experienced developer, Gazeneti AI helps you build applications faster with AI-powered coding assistance.
 
-Create a Python script that reads a CSV file and converts it to JSON.
+---
 
-Gazeneti AI Output
+## ✨ Features
 
-import csv
-import json
+### 🐍 Python Support
+- Generate Python code
+- Debug errors and exceptions
+- Create automation scripts
+- Build APIs and backend services
+- Optimize code performance
 
-data = []
+### ☕ Kotlin Support
+- Generate Kotlin classes and functions
+- Explain Kotlin concepts
+- Refactor existing code
+- Apply Kotlin best practices
 
-with open("data.csv", "r") as file:
-    reader = csv.DictReader(file)
-    for row in reader:
-        data.append(row)
+### 🤖 Android Studio Support
+- Create Activities and Fragments
+- Generate XML layouts
+- Build Jetpack Compose UIs
+- Fix Gradle and build errors
+- Implement MVVM and Clean Architecture
 
-with open("data.json", "w") as json_file:
-    json.dump(data, json_file, indent=4)
+### 🧠 AI Assistance
+- Code explanations
+- Documentation generation
+- Bug fixing
+- Architecture recommendations
+- Learning support
 
-print("Conversion completed.")
-Kotlin Example
+---
 
-Prompt
+## 🛠 Example Usage
 
-Create a Kotlin data class for a User.
+### Python
 
-Output
+```python
+def greet(name):
+    return f"Hello, {name}!"
 
+print(greet("World"))
+```
+
+### Kotlin
+
+```kotlin
 data class User(
     val id: Int,
     val name: String,
     val email: String
 )
-Android Studio Example
+```
 
-Prompt
+### Jetpack Compose
 
-Create a Jetpack Compose button.
-
-Output
-
+```kotlin
 @Composable
 fun MyButton() {
-    Button(
-        onClick = { }
-    ) {
+    Button(onClick = { }) {
         Text("Click Me")
     }
 }
-🎯 Who Is It For?
-Android Developers
-Python Developers
-Kotlin Developers
-Students
-Software Engineers
-Open Source Contributors
-Programming Beginners
-📦 Installation
+```
+
+---
+
+## 📦 Installation
+
+```bash
 git clone https://github.com/yourusername/gazeneti-ai.git
-
 cd gazeneti-ai
+```
 
-# Install dependencies
-pip install -r requirements.txt
-⚙️ Configuration
+---
 
-Create a .env file:
+## 📚 Supported Technologies
 
-API_KEY=your_api_key
-MODEL=gazeneti-ai
-📚 Supported Technologies
-Category	Technologies
-Languages	Python, Kotlin
-Mobile	Android Studio
-UI	XML, Jetpack Compose
-Architecture	MVVM, Clean Architecture
-Tools	Gradle, Git, Firebase
-🤝 Contributing
+| Category | Technologies |
+|-----------|-------------|
+| Languages | Python, Kotlin |
+| Mobile | Android Studio |
+| UI | XML, Jetpack Compose |
+| Architecture | MVVM, Clean Architecture |
+| Tools | Git, Gradle, Firebase |
+
+---
+
+## 🎯 Who Is It For?
+
+- Android Developers
+- Python Developers
+- Kotlin Developers
+- Students
+- Software Engineers
+- Open Source Contributors
+
+---
+
+## 🤝 Contributing
 
 Contributions are welcome!
 
-Fork the repository
-Create a feature branch
-Commit your changes
-Push your branch
-Open a Pull Request
-📄 License
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push your branch
+5. Open a Pull Request
 
-This project is licensed under the Apache License.
+---
 
-🌟 Vision
+## 📄 License
 
-Gazeneti AI aims to make software development faster, easier, and more accessible by providing intelligent assistance for Python, Kotlin, and Android application development.
+MIT License
 
-<p align="center"> Built with ❤️ by the Gazeneti AI Team </p>
+---
+
+## 🌟 Mission
+
+Gazeneti AI aims to make software development faster, easier, and more accessible through intelligent coding assistance.
+
+**Built with ❤️ by the Gazeneti AI Team**
